@@ -49,6 +49,7 @@ setuptools.setup(
         'odoo-addon-mrp_warehouse_calendar>=16.0dev,<16.1dev',
         'odoo-addon-mrp_workcenter_cost>=16.0dev,<16.1dev',
         'odoo-addon-mrp_workcenter_hierarchical>=16.0dev,<16.1dev',
+        'odoo-addon-mrp_workcenter_workorder_link>=16.0dev,<16.1dev',
         'odoo-addon-mrp_workorder_lot_display>=16.0dev,<16.1dev',
         'odoo-addon-mrp_workorder_sequence>=16.0dev,<16.1dev',
         'odoo-addon-product_mrp_info>=16.0dev,<16.1dev',
