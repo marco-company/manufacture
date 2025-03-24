@@ -17,7 +17,11 @@ License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
                     attrs="{'invisible':[('type','=','service')]}"
                 />
                 <div attrs="{'invisible':[('type','=','service')]}">
-                    <field name="produce_delay_in_hour" class="oe_inline" /> hours
+                    <field
+                        name="produce_delay_in_hour"
+                        widget="float_time"
+                        class="oe_inline"
+                    /> hours
                 </div>
             </xpath>
             <xpath expr="//field[@name='produce_delay']" position="attributes">
