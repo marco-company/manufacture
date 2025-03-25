@@ -33,7 +33,7 @@ addon | version | maintainers | summary
 [mrp_bom_produce_delay](mrp_bom_produce_delay/) | 16.0.1.0.0 |  | Add Product Delay in BoM, linked to Product Produce Delay.
 [mrp_bom_product_price_margin](mrp_bom_product_price_margin/) | 16.0.1.0.0 |  | Handle Product Standard, Sale Price and Margin with its BoM cost
 [mrp_bom_select_product_variant](mrp_bom_select_product_variant/) | 16.0.1.0.0 |  | Favors Product variant selection for BOM creation.
-[mrp_bom_tag](mrp_bom_tag/) | 16.0.1.1.0 | [![quentinDupont](https://github.com/quentinDupont.png?size=30px)](https://github.com/quentinDupont) | Add tags on your BoM to find it easily
+[mrp_bom_tag](mrp_bom_tag/) | 16.0.1.2.0 | [![quentinDupont](https://github.com/quentinDupont.png?size=30px)](https://github.com/quentinDupont) | Add tags on your BoM to find it easily
 [mrp_bom_tracking](mrp_bom_tracking/) | 16.0.1.0.0 |  | Logs any change to a BoM in the chatter
 [mrp_bom_version](mrp_bom_version/) | 16.0.1.0.0 |  | BoM versioning
 [mrp_bom_widget_section_and_note_one2many](mrp_bom_widget_section_and_note_one2many/) | 16.0.1.0.0 | [![quentinDupont](https://github.com/quentinDupont.png?size=30px)](https://github.com/quentinDupont) | Add section and note in Bills of Materials
