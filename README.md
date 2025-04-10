@@ -64,6 +64,7 @@ addon | version | maintainers | summary
 [mrp_workcenter_hierarchical](mrp_workcenter_hierarchical/) | 16.0.1.0.0 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) | Organise Workcenters by section
 [mrp_workcenter_workorder_link](mrp_workcenter_workorder_link/) | 16.0.1.0.0 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) | Switch easily between Work Centers and Work Orders
 [mrp_workorder_lot_display](mrp_workorder_lot_display/) | 16.0.1.0.0 | [![grindtildeath](https://github.com/grindtildeath.png?size=30px)](https://github.com/grindtildeath) | Display lot number on workorders kanban
+[mrp_workorder_priority](mrp_workorder_priority/) | 16.0.1.0.0 |  | Add a priority field to workorders
 [mrp_workorder_sequence](mrp_workorder_sequence/) | 16.0.0.1.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | adds sequence to production work orders.
 [product_mrp_info](product_mrp_info/) | 16.0.1.0.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Adds smart button in product form view linking to manufacturing order list.
 [quality_control_mrp_oca](quality_control_mrp_oca/) | 16.0.1.0.1 |  | MRP extension for quality control (OCA)
