@@ -47,7 +47,7 @@ addon | version | maintainers | summary
 [mrp_product_characterisation](mrp_product_characterisation/) | 16.0.1.0.0 |  | Adds product characterisation 'Intermediate Products'.
 [mrp_production_note](mrp_production_note/) | 16.0.1.0.0 |  | Notes in production orders
 [mrp_production_quant_manual_assign](mrp_production_quant_manual_assign/) | 16.0.1.0.0 |  | Production - Manual Quant Assignment
-[mrp_restrict_lot](mrp_restrict_lot/) | 16.0.1.0.1 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) | MRP Restrict Lot
+[mrp_restrict_lot](mrp_restrict_lot/) | 16.0.1.0.2 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) | MRP Restrict Lot
 [mrp_sale_info](mrp_sale_info/) | 16.0.1.1.0 |  | Adds sale information to Manufacturing models
 [mrp_stock_owner_restriction](mrp_stock_owner_restriction/) | 16.0.1.0.0 |  | MRP Stock Owner Restriction
 [mrp_subcontracting_bom_dual_use](mrp_subcontracting_bom_dual_use/) | 16.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Mrp subcontracting bom dual use
