@@ -34,6 +34,7 @@ setuptools.setup(
         'odoo-addon-mrp_planned_order_matrix>=16.0dev,<16.1dev',
         'odoo-addon-mrp_product_characterisation>=16.0dev,<16.1dev',
         'odoo-addon-mrp_product_produce_delay_in_hour>=16.0dev,<16.1dev',
+        'odoo-addon-mrp_production_back_to_draft>=16.0dev,<16.1dev',
         'odoo-addon-mrp_production_grouped_by_product>=16.0dev,<16.1dev',
         'odoo-addon-mrp_production_note>=16.0dev,<16.1dev',
         'odoo-addon-mrp_production_quant_manual_assign>=16.0dev,<16.1dev',
