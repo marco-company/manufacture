@@ -49,6 +49,7 @@ addon | version | maintainers | summary
 [mrp_product_produce_delay_in_hour](mrp_product_produce_delay_in_hour/) | 16.0.1.0.0 | <a href='https://github.com/quentinDupont'><img src='https://github.com/quentinDupont.png' width='32' height='32' style='border-radius:50%;' alt='quentinDupont'/></a> | Handle MRP Product Produce Delay in hours not in days.
 [mrp_production_back_to_draft](mrp_production_back_to_draft/) | 16.0.1.0.0 |  | Allows to return to draft a confirmed or cancelled MO.
 [mrp_production_grouped_by_product](mrp_production_grouped_by_product/) | 16.0.1.0.0 |  | Production Grouped By Product
+[mrp_production_move_line_auto_fill](mrp_production_move_line_auto_fill/) | 16.0.1.0.0 |  | Mrp Production Move Line Auto Fill
 [mrp_production_note](mrp_production_note/) | 16.0.1.0.0 |  | Notes in production orders
 [mrp_production_quant_manual_assign](mrp_production_quant_manual_assign/) | 16.0.1.0.0 |  | Production - Manual Quant Assignment
 [mrp_restrict_lot](mrp_restrict_lot/) | 16.0.1.0.3 | <a href='https://github.com/florian-dacosta'><img src='https://github.com/florian-dacosta.png' width='32' height='32' style='border-radius:50%;' alt='florian-dacosta'/></a> | MRP Restrict Lot
