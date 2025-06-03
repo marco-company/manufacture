@@ -70,7 +70,7 @@ addon | version | maintainers | summary
 [product_mrp_info](product_mrp_info/) | 16.0.1.0.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Adds smart button in product form view linking to manufacturing order list.
 [quality_control_mrp_oca](quality_control_mrp_oca/) | 16.0.1.0.1 |  | MRP extension for quality control (OCA)
 [quality_control_oca](quality_control_oca/) | 16.0.1.3.0 |  | Generic infrastructure for quality tests.
-[quality_control_stock_oca](quality_control_stock_oca/) | 16.0.1.0.0 |  | Quality control - Stock (OCA)
+[quality_control_stock_oca](quality_control_stock_oca/) | 16.0.1.1.0 |  | Quality control - Stock (OCA)
 
 [//]: # (end addons)
 
