@@ -45,7 +45,7 @@ addon | version | maintainers | summary
 [mrp_multi_level_estimate](mrp_multi_level_estimate/) | 16.0.1.1.2 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> | Allows to consider demand estimates using MRP multi level.
 [mrp_packaging_default](mrp_packaging_default/) | 16.0.1.0.2 | <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> <a href='https://github.com/yajo'><img src='https://github.com/yajo.png' width='32' height='32' style='border-radius:50%;' alt='yajo'/></a> | Include packaging info in MRP by default
 [mrp_planned_order_matrix](mrp_planned_order_matrix/) | 16.0.1.0.0 |  | Allows to create fixed planned orders on a grid view.
-[mrp_product_characterisation](mrp_product_characterisation/) | 16.0.1.0.0 |  | Adds product characterisation 'Intermediate Products'.
+[mrp_product_characterisation](mrp_product_characterisation/) | 16.0.1.1.0 |  | Adds product characterisation 'Intermediate Products'.
 [mrp_product_produce_delay_in_hour](mrp_product_produce_delay_in_hour/) | 16.0.1.0.0 | <a href='https://github.com/quentinDupont'><img src='https://github.com/quentinDupont.png' width='32' height='32' style='border-radius:50%;' alt='quentinDupont'/></a> | Handle MRP Product Produce Delay in hours not in days.
 [mrp_production_back_to_draft](mrp_production_back_to_draft/) | 16.0.1.0.0 |  | Allows to return to draft a confirmed or cancelled MO.
 [mrp_production_grouped_by_product](mrp_production_grouped_by_product/) | 16.0.1.0.0 |  | Production Grouped By Product
