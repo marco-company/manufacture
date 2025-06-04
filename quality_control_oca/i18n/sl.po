@@ -272,6 +272,12 @@ msgid "External notes"
 msgstr "Zunanje opombe"
 
 #. module: quality_control_oca
+#: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_kanban_view
+#: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_line_kanban_view
+msgid "Failed"
+msgstr ""
+
+#. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__message_follower_ids
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_test__message_follower_ids
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_trigger_line__message_follower_ids
@@ -948,6 +954,8 @@ msgstr ""
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__success
+#: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_kanban_view
+#: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_line_kanban_view
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_line_search_view
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_search_view
 msgid "Success"
