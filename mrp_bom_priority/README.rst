@@ -28,7 +28,9 @@ MRP BoM Priority
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
 
-Adds priority to helps prioritize BoM.
+Replace sequence by priority in order to prioritize easily BoMs.
+Priority is used to bring up the most important BoMs, the others being classified as by default.
+This priority will be used to select the right BoM during manufacturing (thus replacing the sequence).
 
 .. figure:: https://raw.githubusercontent.com/OCA/manufacture/16.0/mrp_bom_priority/static/description/mrp_bom_view_form.jpeg
 .. figure:: https://raw.githubusercontent.com/OCA/manufacture/16.0/mrp_bom_priority/static/description/mrp_bom_view_tree.jpeg
