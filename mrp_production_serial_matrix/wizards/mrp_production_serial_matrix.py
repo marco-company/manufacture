@@ -332,12 +332,15 @@ class MrpProductionSerialMatrix(models.TransientModel):
                             == ml.lot_id  # noqa: B023
                         ).mapped("lot_qty")
                     )
-                    ml.quantity = qty
-            elif float_is_zero(ml.quantity, precision_digits=precision_digits):
+                    ml.qty_done = qty
+
+                    ml.qty_done = qty
+                else:
+                    ml.qty_done = ml.reserved_qty
+            elif float_is_zero(ml.reserved_qty, precision_digits=precision_digits):
                 ml.unlink()
             else:
-                ml.quantity = 0.0
-            ml.picked = True
+                ml.qty_done = 0.0
 
     def _reserve_lot_in_move(self, move, lot, qty):
         precision_digits = self.env["decimal.precision"].precision_get(
@@ -357,6 +360,7 @@ class MrpProductionSerialMatrix(models.TransientModel):
             )
         move._update_reserved_quantity(
             qty,
+            available_quantity,
             move.location_id,
             lot_id=lot,
             strict=True,

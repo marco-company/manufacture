@@ -145,6 +145,7 @@ class TestMrpProductionSerialMatrix(TransactionCase):
         production_form.product_id = cls.final_product
         production_form.bom_id = cls.bom_1
         production_form.product_qty = qty
+        # production_form.product_uom_id = cls.final_product.uom_id
         production_1 = production_form.save()
         production_1.action_confirm()
         production_1.action_assign()
@@ -282,35 +283,35 @@ class TestMrpProductionSerialMatrix(TransactionCase):
         mo_1 = mos.filtered(lambda mo: mo.lot_producing_id == serial_fp_1)
         self.assertEqual(mo_1.state, "done")
         ml_c1 = self._find_move_lines(mo_1, self.component_1_serial)
-        self.assertEqual(ml_c1.quantity, 1.0)
+        self.assertEqual(ml_c1.qty_done, 1.0)
         self.assertEqual(ml_c1.lot_id, self.serial_1_001)
         ml_c2 = self._find_move_lines(mo_1, self.component_2_serial)
         self.assertEqual(len(ml_c2), 2)
         for ml in ml_c2:
-            self.assertEqual(ml.quantity, 1.0)
+            self.assertEqual(ml.qty_done, 1.0)
         self.assertEqual(ml_c2.mapped("lot_id"), self.serial_2_001 + self.serial_2_002)
         ml_c3 = self._find_move_lines(mo_1, self.component_3_lot)
-        self.assertEqual(ml_c3.quantity, 4.0)
+        self.assertEqual(ml_c3.qty_done, 4.0)
         self.assertEqual(ml_c3.lot_id, self.lot_3_003)
         ml_c4 = self._find_move_lines(mo_1, self.component_4_no_track)
-        self.assertEqual(ml_c4.quantity, 1.0)
+        self.assertEqual(ml_c4.qty_done, 1.0)
         self.assertFalse(ml_c4.lot_id)
 
         mo_2 = mos.filtered(lambda mo: mo.lot_producing_id == serial_fp_2)
         self.assertEqual(mo_2.state, "done")
         ml_c1 = self._find_move_lines(mo_2, self.component_1_serial)
-        self.assertEqual(ml_c1.quantity, 1.0)
+        self.assertEqual(ml_c1.qty_done, 1.0)
         self.assertEqual(ml_c1.lot_id, self.serial_1_003)
         ml_c2 = self._find_move_lines(mo_2, self.component_2_serial)
         self.assertEqual(len(ml_c2), 2)
         for ml in ml_c2:
-            self.assertEqual(ml.quantity, 1.0)
+            self.assertEqual(ml.qty_done, 1.0)
         self.assertEqual(ml_c2.mapped("lot_id"), self.serial_2_005 + self.serial_2_004)
         ml_c3 = self._find_move_lines(mo_2, self.component_3_lot)
-        self.assertEqual(ml_c3.quantity, 4.0)
+        self.assertEqual(ml_c3.qty_done, 4.0)
         self.assertEqual(ml_c3.lot_id, self.lot_3_002)
         ml_c4 = self._find_move_lines(mo_2, self.component_4_no_track)
-        self.assertEqual(ml_c4.quantity, 1.0)
+        self.assertEqual(ml_c4.qty_done, 1.0)
         self.assertFalse(ml_c4.lot_id)
 
         # MO holding the remaining qty
