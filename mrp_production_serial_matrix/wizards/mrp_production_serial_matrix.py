@@ -328,7 +328,8 @@ class MrpProductionSerialMatrix(models.TransientModel):
                 if move.product_id.tracking == "lot":
                     qty = sum(
                         matrix_lines.filtered(
-                            lambda line: line.component_lot_id == ml.lot_id  # noqa: B023
+                            lambda line: line.component_lot_id
+                            == ml.lot_id  # noqa: B023
                         ).mapped("lot_qty")
                     )
                     ml.quantity = qty
