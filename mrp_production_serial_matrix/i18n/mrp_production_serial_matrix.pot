@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -120,6 +120,12 @@ msgstr ""
 msgid ""
 "Include products tracked by Lots in matrix. Product tracket by serial "
 "numbers are always included."
+msgstr ""
+
+#. module: mrp_production_serial_matrix
+#: model:ir.model.fields,field_description:mrp_production_serial_matrix.field_mrp_production_serial_matrix____last_update
+#: model:ir.model.fields,field_description:mrp_production_serial_matrix.field_mrp_production_serial_matrix_line____last_update
+msgid "Last Modified on"
 msgstr ""
 
 #. module: mrp_production_serial_matrix
