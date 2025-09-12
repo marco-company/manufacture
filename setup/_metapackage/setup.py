@@ -40,6 +40,7 @@ setuptools.setup(
         'odoo-addon-mrp_production_move_line_auto_fill>=16.0dev,<16.1dev',
         'odoo-addon-mrp_production_note>=16.0dev,<16.1dev',
         'odoo-addon-mrp_production_quant_manual_assign>=16.0dev,<16.1dev',
+        'odoo-addon-mrp_production_serial_matrix>=16.0dev,<16.1dev',
         'odoo-addon-mrp_restrict_lot>=16.0dev,<16.1dev',
         'odoo-addon-mrp_sale_info>=16.0dev,<16.1dev',
         'odoo-addon-mrp_stock_owner_restriction>=16.0dev,<16.1dev',
