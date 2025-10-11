@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-10-11 11:29+0000\n"
+"PO-Revision-Date: 2025-10-11 13:42+0000\n"
 "Last-Translator: İsmail Çağan Yılmaz <ismail.cagan.yilmaz@gmail.com>\n"
 "Language-Team: none\n"
 "Language: tr\n"
@@ -325,7 +325,7 @@ msgstr "Takım"
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order____last_update
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Son Değiştirilme"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__write_uid
@@ -337,7 +337,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__write_uid
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Son Güncelleyen"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__write_date
@@ -349,40 +349,40 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__write_date
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Son Güncellenme"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_lead_time
 msgid "Lead Time"
-msgstr ""
+msgstr "Tedarik Süresi"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__location_id
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__location_id
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__location_id
 msgid "Location"
-msgstr ""
+msgstr "Konum"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_product__llc
 msgid "Low Level Code"
-msgstr ""
+msgstr "Low Level Kodu"
 
 #. module: mrp_multi_level
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_planned_order_view_form
 msgid "MOs"
-msgstr ""
+msgstr "Üretim Emirleri"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__mrp_origin__mrp
 #: model:ir.ui.menu,name:mrp_multi_level.menu_mrp_mrp
 msgid "MRP"
-msgstr ""
+msgstr "MRP"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_applicable
 msgid "MRP Applicable"
-msgstr ""
+msgstr "MRP Uygulanabilir"
 
 #. module: mrp_multi_level
 #: model:ir.actions.act_window,name:mrp_multi_level.mrp_area_action
@@ -393,20 +393,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_area_form
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
 msgid "MRP Area"
-msgstr ""
+msgstr "MRP Alanı"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_product__mrp_area_count
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_template__mrp_area_count
 #: model:ir.model.fields,field_description:mrp_multi_level.field_stock_location__mrp_area_count
 msgid "MRP Area Parameter Count"
-msgstr ""
+msgstr "MRP Alanı Parametre Sayısı"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_product__mrp_area_ids
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_template__mrp_area_ids
 msgid "MRP Area parameters"
-msgstr ""
+msgstr "MRP Alanı parametreleri"
 
 #. module: mrp_multi_level
 #: model:ir.ui.menu,name:mrp_multi_level.menu_mrp_areas
@@ -414,17 +414,17 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_location_form
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_mrp_product_product_form
 msgid "MRP Areas"
-msgstr ""
+msgstr "MRP Alanları"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_multi_level__mrp_area_ids
 msgid "MRP Areas to run"
-msgstr ""
+msgstr "Çalıştırılacak MRP Alanları"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__mrp_date
 msgid "MRP Date"
-msgstr ""
+msgstr "MRP Tarihi"
 
 #. module: mrp_multi_level
 #: model:ir.actions.act_window,name:mrp_multi_level.mrp_inventory_action
@@ -434,141 +434,141 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_mrp_inventory_graph
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_mrp_inventory_pivot
 msgid "MRP Inventory"
-msgstr ""
+msgstr "MRP Envanteri"
 
 #. module: mrp_multi_level
 #: model:ir.model,name:mrp_multi_level.model_mrp_inventory_procure_item
 msgid "MRP Inventory procure item"
-msgstr ""
+msgstr "MRP Envanteri tedarik öğesi"
 
 #. module: mrp_multi_level
 #: model:ir.model,name:mrp_multi_level.model_mrp_move
 msgid "MRP Move"
-msgstr ""
+msgstr "MRP Hareketi"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__mrp_move_down_ids
 msgid "MRP Move DOWN"
-msgstr ""
+msgstr "MRP Hareketi IPTAL"
 
 #. module: mrp_multi_level
 #: model:ir.actions.act_window,name:mrp_multi_level.mrp_move_action
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_mrp_area_form
 msgid "MRP Moves"
-msgstr ""
+msgstr "MRP Hareketleri"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__mrp_qty
 msgid "MRP Quantity"
-msgstr ""
+msgstr "MRP Miktarı"
 
 #. module: mrp_multi_level
 #: model:ir.model,name:mrp_multi_level.model_mrp_inventory
 msgid "MRP inventory projections"
-msgstr ""
+msgstr "MRP envanter projeksiyonları"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__main_supplier_id
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__main_supplier_id
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
 msgid "Main Supplier"
-msgstr ""
+msgstr "Ana Tedarikçi"
 
 #. module: mrp_multi_level
 #: model:ir.model,name:mrp_multi_level.model_mrp_inventory_procure
 msgid "Make Procurements from MRP inventory projections"
-msgstr ""
+msgstr "MRP envanter projeksiyonlarından tedarik yap"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__production_id
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__mrp_origin__mo
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_planned_order__mrp_action__manufacture
 msgid "Manufacturing Order"
-msgstr ""
+msgstr "Üretim Emri"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__mrp_production_ids
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_product__manufacturing_order_ids
 msgid "Manufacturing Orders"
-msgstr ""
+msgstr "Üretim Emirleri"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_maximum_order_qty
 msgid "Maximum Order Qty"
-msgstr ""
+msgstr "Maksimum Sipariş Miktarı"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_minimum_order_qty
 msgid "Minimum Order Qty"
-msgstr ""
+msgstr "Minimum Sipariş Miktarı"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__mo_count
 msgid "Mo Count"
-msgstr ""
+msgstr "Üretim Emri Sayısı"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__mrp_origin__mv
 msgid "Move"
-msgstr ""
+msgstr "Hareket"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_area_id
 msgid "Mrp Area"
-msgstr ""
+msgstr "MRP Alanı"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__mrp_inventory_id
 msgid "Mrp Inventory"
-msgstr ""
+msgstr "MRP Envanteri"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_move_ids
 msgid "Mrp Move"
-msgstr ""
+msgstr "MRP Hareketi"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__mrp_planner_id
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__mrp_planner_id
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_planner_id
 msgid "Mrp Planner"
-msgstr ""
+msgstr "MRP Planlayıcı"
 
 #. module: mrp_multi_level
 #: model:ir.actions.server,name:mrp_multi_level.mrp_multi_level_cron_ir_actions_server
 #: model:ir.cron,cron_name:mrp_multi_level.mrp_multi_level_cron
 #: model:ir.model,name:mrp_multi_level.model_mrp_multi_level
 msgid "Multi Level MRP"
-msgstr ""
+msgstr "Çoklu Seviye MRP"
 
 #. module: mrp_multi_level
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_planned_order_view_search
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_mrp_area_search
 msgid "My products"
-msgstr ""
+msgstr "Ürünlerim"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__name
 msgid "Name"
-msgstr ""
+msgstr "Isim"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_nbr_days
 msgid "Nbr. Days"
-msgstr ""
+msgstr "Gün Sayısı"
 
 #. module: mrp_multi_level
 #. odoo-python
 #: code:addons/mrp_multi_level/wizards/mrp_multi_level.py:0
 #, python-format
 msgid "No MRP product found"
-msgstr ""
+msgstr "MRP ürünü bulunamadı"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_planned_order__mrp_action__none
 msgid "None"
-msgstr ""
+msgstr "Yok"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,help:mrp_multi_level.field_product_mrp_area__mrp_nbr_days
@@ -576,71 +576,73 @@ msgid ""
 "Number of days to group demand for this product during the MRP run, in order"
 " to determine the quantity to order."
 msgstr ""
+"MRP çalışması sırasında bu ürün için talebin gruplanacağı gün sayısı; "
+"sipariş edilecek miktarın belirlenmesinde kullanılır."
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__mrp_order_number
 msgid "Order Number"
-msgstr ""
+msgstr "Sipariş Numarası"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__order_release_date
 msgid "Order Release Date"
-msgstr ""
+msgstr "Emir Yayınlanma Tarihi"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,help:mrp_multi_level.field_mrp_planned_order__order_release_date
 msgid "Order release date planned by MRP."
-msgstr ""
+msgstr "MRP tarafından planlanan emir yayınlanma tarihi."
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__mrp_origin
 msgid "Origin"
-msgstr ""
+msgstr "Kaynak"
 
 #. module: mrp_multi_level
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_mrp_area_form
 msgid "Outgoing Moves"
-msgstr ""
+msgstr "Giden Hareketler"
 
 #. module: mrp_multi_level
 #: model:product.template,name:mrp_multi_level.product_product_pp_1_product_template
 msgid "PP-1"
-msgstr ""
+msgstr "PP-1"
 
 #. module: mrp_multi_level
 #: model:product.template,name:mrp_multi_level.product_product_pp_2_product_template
 msgid "PP-2"
-msgstr ""
+msgstr "PP-2"
 
 #. module: mrp_multi_level
 #: model:product.template,name:mrp_multi_level.product_product_pp_3_product_template
 msgid "PP-3"
-msgstr ""
+msgstr "PP-3"
 
 #. module: mrp_multi_level
 #: model:product.template,name:mrp_multi_level.product_product_pp_4_product_template
 msgid "PP-4"
-msgstr ""
+msgstr "PP-4"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__parent_product_id
 msgid "Parent Product"
-msgstr ""
+msgstr "Üst Ürün"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__state__partially_available
 msgid "Partially Available"
-msgstr ""
+msgstr "Kısmen Uygun"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__running_availability
 msgid "Planned Availability"
-msgstr ""
+msgstr "Planlanmış Uygunluk"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__date_planned
 msgid "Planned Date"
-msgstr ""
+msgstr "Planlanmış Tarih"
 
 #. module: mrp_multi_level
 #: model:ir.model,name:mrp_multi_level.model_mrp_planned_order
@@ -649,7 +651,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_production__planned_order_id
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__planned_order_ids
 msgid "Planned Order"
-msgstr ""
+msgstr "Planlanan Emir"
 
 #. module: mrp_multi_level
 #. odoo-python
@@ -659,35 +661,35 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_mrp_area_form
 #, python-format
 msgid "Planned Orders"
-msgstr ""
+msgstr "Planlanan Emirler"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__planned_order_up_ids
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_move_view_form
 msgid "Planned Orders UP"
-msgstr ""
+msgstr "Planlanan Emirler YAYINLA"
 
 #. module: mrp_multi_level
 #: model:ir.actions.act_window,name:mrp_multi_level.act_mrp_inventory_procure
 #: model:ir.actions.act_window,name:mrp_multi_level.act_mrp_inventory_procure_planned_order
 msgid "Procure"
-msgstr ""
+msgstr "Tedarik"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__location_proc_id
 msgid "Procure Location"
-msgstr ""
+msgstr "Tedarik Konumu"
 
 #. module: mrp_multi_level
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_mrp_inventory_procure_wizard
 msgid "Procurement Request"
-msgstr ""
+msgstr "Tedarik Isteği"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_inventory_procure_item__supply_method__manufacture
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__product_mrp_area__supply_method__manufacture
 msgid "Produce"
-msgstr ""
+msgstr "Tedarik"
 
 #. module: mrp_multi_level
 #: model:ir.model,name:mrp_multi_level.model_product_template
@@ -698,118 +700,118 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__product_id
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
 msgid "Product"
-msgstr ""
+msgstr "Ürün"
 
 #. module: mrp_multi_level
 #: model:ir.model,name:mrp_multi_level.model_product_mrp_area
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__product_mrp_area_id
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__product_mrp_area_id
 msgid "Product MRP Area"
-msgstr ""
+msgstr "Ürün MRP Alanı"
 
 #. module: mrp_multi_level
 #: model:ir.actions.act_window,name:mrp_multi_level.product_mrp_area_action
 #: model:ir.ui.menu,name:mrp_multi_level.menu_product_mrp_area_parameters
 msgid "Product MRP Area Parameters"
-msgstr ""
+msgstr "Ürün MRP Alanı Parametreleri"
 
 #. module: mrp_multi_level
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_mrp_area_form
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_mrp_area_search
 msgid "Product MRP Area parameters"
-msgstr ""
+msgstr "Ürüm MRP Alanı parametreleri"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__product_mrp_area_id
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_planned_order_view_search
 msgid "Product Parameters"
-msgstr ""
+msgstr "Ürün Parametreleri"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__product_tmpl_id
 msgid "Product Template"
-msgstr ""
+msgstr "Ürün Şablonu"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__uom_id
 msgid "Product UoM"
-msgstr ""
+msgstr "Ürün Ölçü Birimi"
 
 #. module: mrp_multi_level
 #: model:ir.model,name:mrp_multi_level.model_product_product
 msgid "Product Variant"
-msgstr ""
+msgstr "Ürün Varyantı"
 
 #. module: mrp_multi_level
 #: model:ir.model,name:mrp_multi_level.model_mrp_production
 msgid "Production Order"
-msgstr ""
+msgstr "Üretim Emri"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_inventory_procure_item__supply_method__pull_push
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_planned_order__mrp_action__pull_push
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__product_mrp_area__supply_method__pull_push
 msgid "Pull & Push"
-msgstr ""
+msgstr "Çek & Ittir"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_inventory_procure_item__supply_method__pull
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_planned_order__mrp_action__pull
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__product_mrp_area__supply_method__pull
 msgid "Pull From"
-msgstr ""
+msgstr "Şuradan Çek"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__purchase_order_id
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__mrp_origin__po
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_planned_order__mrp_action__buy
 msgid "Purchase Order"
-msgstr ""
+msgstr "Satınalma Siparişi"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__purchase_line_id
 msgid "Purchase Order Line"
-msgstr ""
+msgstr "Satınalma Siparişi Satırları"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_product__purchase_order_line_ids
 msgid "Purchase Orders"
-msgstr ""
+msgstr "Satınalma Siparişleri"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_inventory_procure_item__supply_method__push
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_planned_order__mrp_action__push
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__product_mrp_area__supply_method__push
 msgid "Push To"
-msgstr ""
+msgstr "Şuraya Ittir"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_qty_multiple
 msgid "Qty Multiple"
-msgstr ""
+msgstr "Çoklu Miktar"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__qty_released
 msgid "Qty Released"
-msgstr ""
+msgstr "Kullanılabilir Miktar"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__qty
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__mrp_qty
 msgid "Quantity"
-msgstr ""
+msgstr "Miktar"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__qty_available
 msgid "Quantity Available"
-msgstr ""
+msgstr "Müsait Miktar"
 
 #. module: mrp_multi_level
 #. odoo-python
 #: code:addons/mrp_multi_level/wizards/mrp_inventory_procure.py:0
 #, python-format
 msgid "Quantity must be positive."
-msgstr ""
+msgstr "Miktar pozitif olmalı."
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,help:mrp_multi_level.field_mrp_inventory__rfq_qty
@@ -817,63 +819,65 @@ msgid ""
 "Quantity on Request for Quotation.\n"
 "This quantity is included in the supply quantity but it is not confirmed yet."
 msgstr ""
+"Teklif Talebindeki (RFQ) miktar.\n"
+"Bu miktar tedarik miktarına dahil edilir ancak henüz onaylanmamıştır."
 
 #. module: mrp_multi_level
 #: model:ir.model,name:mrp_multi_level.model_stock_quant
 msgid "Quants"
-msgstr ""
+msgstr "Parçalar"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__state__ready
 msgid "Ready"
-msgstr ""
+msgstr "Hazır"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__order_release_date
 msgid "Release Date"
-msgstr ""
+msgstr "Yayınlanma Tarihi"
 
 #. module: mrp_multi_level
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_tree
 msgid "Requests for Quotation"
-msgstr ""
+msgstr "Teklif Talepleri"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__rfq_qty
 msgid "RfQ"
-msgstr ""
+msgstr "RFQ"
 
 #. module: mrp_multi_level
 #: model:ir.actions.act_window,name:mrp_multi_level.action_mrp_multi_level
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_run_mrp_multi_level_wizard
 msgid "Run MRP"
-msgstr ""
+msgstr "MRP Çalıştır"
 
 #. module: mrp_multi_level
 #: model:res.groups,name:mrp_multi_level.group_mrp_multi_level_run
 msgid "Run MRP Manually"
-msgstr ""
+msgstr "Manuel MRP Çalıştır"
 
 #. module: mrp_multi_level
 #: model:ir.ui.menu,name:mrp_multi_level.menu_mrp_multi_level
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_run_mrp_multi_level_wizard
 msgid "Run MRP Multi Level"
-msgstr ""
+msgstr "Çoklu Seviye MRP Çalıştır"
 
 #. module: mrp_multi_level
 #: model:product.template,name:mrp_multi_level.product_product_sf_1_product_template
 msgid "SF-1"
-msgstr ""
+msgstr "SF-1"
 
 #. module: mrp_multi_level
 #: model:product.template,name:mrp_multi_level.product_product_sf_2_product_template
 msgid "SF-2"
-msgstr ""
+msgstr "SF-2"
 
 #. module: mrp_multi_level
 #: model:product.template,name:mrp_multi_level.product_product_sf_3_product_template
 msgid "SF-3"
-msgstr ""
+msgstr "SF-3"
 
 #. module: mrp_multi_level
 #. odoo-python
@@ -884,17 +888,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_minimum_stock
 #, python-format
 msgid "Safety Stock"
-msgstr ""
+msgstr "Güvenli Stok"
 
 #. module: mrp_multi_level
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
 msgid "Selection..."
-msgstr ""
+msgstr "Seçim..."
 
 #. module: mrp_multi_level
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__state__sent
 msgid "Sent"
-msgstr ""
+msgstr "Gönderildi"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,help:mrp_multi_level.field_product_mrp_area__location_proc_id
@@ -902,56 +906,61 @@ msgid ""
 "Set this if you need to procure from a different locationthan area's "
 "location."
 msgstr ""
+"Bölgenin konumundan farklı bir konumdan tedarik etmeniz gerekiyorsa bunu "
+"ayarlayın."
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__origin
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__origin
 msgid "Source Document"
-msgstr ""
+msgstr "Kaynak Belge"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__initial_on_hand_qty
 msgid "Starting Inventory"
-msgstr ""
+msgstr "Başlangıç Envanter"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__state
 msgid "State"
-msgstr ""
+msgstr "Durumu"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__stock_move_id
 msgid "Stock Move"
-msgstr ""
+msgstr "Stok Hareketi"
 
 #. module: mrp_multi_level
 #: model:ir.model,name:mrp_multi_level.model_stock_rule
 msgid "Stock Rule"
-msgstr ""
+msgstr "Stok Kuralı"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__main_supplierinfo_id
 msgid "Supplier Info"
-msgstr ""
+msgstr "Tedarikçi Bilgisi"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__supply_qty
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__mrp_type__s
+#, fuzzy
 msgid "Supply"
-msgstr ""
+msgstr "Arz"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__supply_bom_id
+#, fuzzy
 msgid "Supply BoM"
-msgstr ""
+msgstr "Arz Ölçü Birimi"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__supply_method
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__supply_method
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__supply_method
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
+#, fuzzy
 msgid "Supply Method"
-msgstr ""
+msgstr "Arz Yöntemi"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,help:mrp_multi_level.field_mrp_area__company_id
@@ -960,54 +969,56 @@ msgstr ""
 #: model:ir.model.fields,help:mrp_multi_level.field_mrp_planned_order__company_id
 #: model:ir.model.fields,help:mrp_multi_level.field_product_mrp_area__company_id
 msgid "The company is automatically set from your user preferences."
-msgstr ""
+msgstr "Şirket, kullanıcı tercihlerinizden otomatik olarak seçilir."
 
 #. module: mrp_multi_level
 #: model:ir.model.constraint,message:mrp_multi_level.constraint_product_mrp_area_product_mrp_area_uniq
 msgid "The product/MRP Area parameters combination must be unique."
-msgstr ""
+msgstr "Ürün/MRP Alanı parametreleri kombinasyonu benzersiz olmalıdır."
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,help:mrp_multi_level.field_mrp_inventory__running_availability
 msgid "Theoretical inventory level if all planned orders were released."
 msgstr ""
+"Tüm planlanan siparişler serbest bırakılmış olsaydı oluşacak teorik stok "
+"seviyesi."
 
 #. module: mrp_multi_level
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__state__to_approve
 msgid "To Approve"
-msgstr ""
+msgstr "Onaylanacak"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__to_procure
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
 msgid "To Procure"
-msgstr ""
+msgstr "Tedarik Edilecek"
 
 #. module: mrp_multi_level
 #: model:ir.actions.server,name:mrp_multi_level.action_server_planned_order_toggle_fixed
 msgid "Toggle Fixed"
-msgstr ""
+msgstr "Sabit Olarak Ayarla"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_transit_delay
 msgid "Transit Delay"
-msgstr ""
+msgstr "Sevkiyat Gecikmesi"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__mrp_type
 msgid "Type"
-msgstr ""
+msgstr "Türü"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_inventory_procure_item__supply_method__none
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__product_mrp_area__supply_method__none
 msgid "Undefined"
-msgstr ""
+msgstr "Tanımlanmamış"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__uom_id
 msgid "Unit of Measure"
-msgstr ""
+msgstr "Ölçü Birimi"
 
 #. module: mrp_multi_level
 #: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_mrp_inventory_procure_wizard
@@ -1017,36 +1028,41 @@ msgid ""
 "                    this may trigger a draft purchase order, a manufacturing\n"
 "                    order or a transfer picking."
 msgstr ""
+"Bu yardımcıyı kullanarak bu ürün ve tarih için tedarik işlemi başlatın.\n"
+"                    Ürün yapılandırmasına bağlı olarak bu işlem,\n"
+"                    taslak bir satınalma emri\n"
+"                    bir üretim emri veya bir transfer toplama işlemi "
+"oluşturabilir."
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_verified
 msgid "Verified for MRP"
-msgstr ""
+msgstr "MRP için Onaylanmış"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__state__waiting
 msgid "Waiting"
-msgstr ""
+msgstr "Bekliyor"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__warehouse_id
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__warehouse_id
 msgid "Warehouse"
-msgstr ""
+msgstr "Depo"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__wiz_id
 msgid "Wizard"
-msgstr ""
+msgstr "Sihirbaz"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__calendar_id
 msgid "Working Hours"
-msgstr ""
+msgstr "Çalışma Saatleri"
 
 #. module: mrp_multi_level
 #. odoo-python
 #: code:addons/mrp_multi_level/models/product_mrp_area.py:0
 #, python-format
 msgid "You cannot use a negative number."
-msgstr ""
+msgstr "Negatif sayı kullanılamaz."
