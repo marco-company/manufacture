@@ -17,6 +17,7 @@ setuptools.setup(
         'odoo-addon-mrp_bom_line_net_qty>=16.0dev,<16.1dev',
         'odoo-addon-mrp_bom_location>=16.0dev,<16.1dev',
         'odoo-addon-mrp_bom_note>=16.0dev,<16.1dev',
+        'odoo-addon-mrp_bom_order_by_product_name>=16.0dev,<16.1dev',
         'odoo-addon-mrp_bom_produce_delay>=16.0dev,<16.1dev',
         'odoo-addon-mrp_bom_product_price_margin>=16.0dev,<16.1dev',
         'odoo-addon-mrp_bom_select_product_variant>=16.0dev,<16.1dev',
