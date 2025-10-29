@@ -6,11 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-28 13:56+0000\n"
-"PO-Revision-Date: 2024-11-28 13:56+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -19,34 +16,34 @@ msgstr ""
 #. module: mrp_bom_priority
 #: model:ir.model,name:mrp_bom_priority.model_mrp_bom
 msgid "Bill of Material"
-msgstr "Fiche technique"
+msgstr ""
 
 #. module: mrp_bom_priority
 #: model:ir.model.fields,help:mrp_bom_priority.field_mrp_bom__priority
 msgid "Helps prioritize BoM."
-msgstr "Aide à prioriser les fiches techniques."
+msgstr ""
 
 #. module: mrp_bom_priority
 #: model:ir.model.fields.selection,name:mrp_bom_priority.selection__mrp_bom__priority__2
 msgid "High"
-msgstr "Haute"
+msgstr ""
 
 #. module: mrp_bom_priority
 #: model:ir.model.fields.selection,name:mrp_bom_priority.selection__mrp_bom__priority__0
 msgid "Low"
-msgstr "Basse"
+msgstr ""
 
 #. module: mrp_bom_priority
 #: model:ir.model.fields.selection,name:mrp_bom_priority.selection__mrp_bom__priority__1
 msgid "Normal"
-msgstr "Normale"
+msgstr ""
 
 #. module: mrp_bom_priority
 #: model:ir.model.fields,field_description:mrp_bom_priority.field_mrp_bom__priority
 msgid "Priority"
-msgstr "Priorité"
+msgstr ""
 
 #. module: mrp_bom_priority
 #: model:ir.model.fields.selection,name:mrp_bom_priority.selection__mrp_bom__priority__3
 msgid "Very High"
-msgstr "Très haute"
+msgstr ""
