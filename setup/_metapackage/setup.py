@@ -69,6 +69,7 @@ setuptools.setup(
         'odoo-addon-product_mrp_info>=16.0dev,<16.1dev',
         'odoo-addon-quality_control_mrp_oca>=16.0dev,<16.1dev',
         'odoo-addon-quality_control_oca>=16.0dev,<16.1dev',
+        'odoo-addon-quality_control_product_manufacturer>=16.0dev,<16.1dev',
         'odoo-addon-quality_control_stock_oca>=16.0dev,<16.1dev',
     ],
     classifiers=[
