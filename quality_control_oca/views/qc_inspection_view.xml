@@ -22,7 +22,7 @@
                         name="action_todo"
                         type="object"
                         class="oe_highlight"
-                        states="draft"
+                        states="plan,draft"
                         string="Mark todo"
                     />
                     <button
