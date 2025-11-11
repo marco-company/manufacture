@@ -60,7 +60,7 @@ addon | version | maintainers | summary
 [mrp_production_unique_lot](mrp_production_unique_lot/) | 16.0.1.0.0 |  | MRP Production Unique Lot
 [mrp_restrict_lot](mrp_restrict_lot/) | 16.0.1.0.3 | <a href='https://github.com/florian-dacosta'><img src='https://github.com/florian-dacosta.png' width='32' height='32' style='border-radius:50%;' alt='florian-dacosta'/></a> | MRP Restrict Lot
 [mrp_sale_info](mrp_sale_info/) | 16.0.1.1.0 |  | Adds sale information to Manufacturing models
-[mrp_stock_owner_restriction](mrp_stock_owner_restriction/) | 16.0.1.0.0 |  | MRP Stock Owner Restriction
+[mrp_stock_owner_restriction](mrp_stock_owner_restriction/) | 16.0.1.0.1 |  | MRP Stock Owner Restriction
 [mrp_subcontracting_bom_dual_use](mrp_subcontracting_bom_dual_use/) | 16.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Mrp subcontracting bom dual use
 [mrp_subcontracting_inhibit](mrp_subcontracting_inhibit/) | 16.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Inhibit subcontracting flow on demand
 [mrp_subcontracting_partner_management](mrp_subcontracting_partner_management/) | 16.0.1.1.0 |  | Subcontracting Partner Management
