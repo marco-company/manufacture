@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: manufacture (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 07:24+0000\n"
-"PO-Revision-Date: 2025-06-04 08:14+0000\n"
+"PO-Revision-Date: 2025-11-12 09:42+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: Italian (http://www.transifex.com/oca/OCA-manufacture-8-0/"
 "language/it/)\n"
@@ -29,7 +29,7 @@ msgstr ""
 #: code:addons/quality_control_stock_oca/models/stock_picking.py:0
 #, python-format
 msgid "Control quality is required to validate this Transfert."
-msgstr ""
+msgstr "È richiesto il controllo qualità per validare questo trasferimento."
 
 #. module: quality_control_stock_oca
 #: model:ir.model.fields,field_description:quality_control_stock_oca.field_stock_lot__created_inspections
@@ -47,12 +47,12 @@ msgstr "Ispezioni eseguite"
 #. module: quality_control_stock_oca
 #: model_terms:ir.ui.view,arch_db:quality_control_stock_oca.stock_picking_qc_view
 msgid "Failed inspections"
-msgstr ""
+msgstr "Ispezioni fallite"
 
 #. module: quality_control_stock_oca
 #: model:ir.model.fields,field_description:quality_control_stock_oca.field_stock_picking__inspection_required_message
 msgid "Inspection Required Message"
-msgstr ""
+msgstr "Messaggio ispezione richiesta"
 
 #. module: quality_control_stock_oca
 #: model:ir.model.fields,field_description:quality_control_stock_oca.field_stock_lot__qc_inspections_ids
@@ -86,7 +86,7 @@ msgstr "Ispezioni relative a questo prelievo."
 #: model:ir.model.fields,field_description:quality_control_stock_oca.field_qc_inspection__is_mandatory_to_validate
 #: model:ir.model.fields,field_description:quality_control_stock_oca.field_qc_trigger__is_mandatory_to_validate
 msgid "Is Mandatory To Validate"
-msgstr ""
+msgstr "È obbligatorio validare"
 
 #. module: quality_control_stock_oca
 #: model:ir.model.fields,field_description:quality_control_stock_oca.field_qc_inspection__lot_id
@@ -104,7 +104,7 @@ msgstr "Lotto/seriale"
 #. module: quality_control_stock_oca
 #: model_terms:ir.ui.view,arch_db:quality_control_stock_oca.stock_picking_qc_view
 msgid "Passed inspections"
-msgstr ""
+msgstr "Ispezioni superate"
 
 #. module: quality_control_stock_oca
 #: model:ir.model.fields,field_description:quality_control_stock_oca.field_qc_inspection__picking_id
@@ -191,7 +191,7 @@ msgstr "Trasferimento"
 #, python-format
 msgid ""
 "You must validate the following inspections before validating the picking:\n"
-msgstr ""
+msgstr "Bisogna validare le seguenti ispezioni prima di validare il prelievo:\n"
 
 #. module: quality_control_stock_oca
 #: model_terms:ir.ui.view,arch_db:quality_control_stock_oca.stock_lot_qc_view
