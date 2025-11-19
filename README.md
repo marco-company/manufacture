@@ -66,6 +66,7 @@ addon | version | maintainers | summary
 [mrp_subcontracting_partner_management](mrp_subcontracting_partner_management/) | 16.0.1.1.0 |  | Subcontracting Partner Management
 [mrp_subcontracting_purchase_link](mrp_subcontracting_purchase_link/) | 16.0.1.0.0 |  | Link Purchase Order Line to Subcontract Productions
 [mrp_subcontracting_skip_no_negative](mrp_subcontracting_skip_no_negative/) | 16.0.1.0.3 |  | MRP Subcontracting Skip No Negative
+[mrp_subcontracting_stock_owner_restriction](mrp_subcontracting_stock_owner_restriction/) | 16.0.1.0.0 |  | MRP Subcontracting Stock Owner Restriction
 [mrp_tag](mrp_tag/) | 16.0.1.1.0 |  | Allows to add multiple tags to Manufacturing Orders
 [mrp_unbuild_move_link](mrp_unbuild_move_link/) | 16.0.1.0.1 |  | Link the stock moves of manufacturing orders to the respective unbuild orders
 [mrp_unbuild_restore_origin](mrp_unbuild_restore_origin/) | 16.0.1.1.0 |  | Mrp Unbuild Restore Origin

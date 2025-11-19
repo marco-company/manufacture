@@ -53,6 +53,7 @@ setuptools.setup(
         'odoo-addon-mrp_subcontracting_partner_management>=16.0dev,<16.1dev',
         'odoo-addon-mrp_subcontracting_purchase_link>=16.0dev,<16.1dev',
         'odoo-addon-mrp_subcontracting_skip_no_negative>=16.0dev,<16.1dev',
+        'odoo-addon-mrp_subcontracting_stock_owner_restriction>=16.0dev,<16.1dev',
         'odoo-addon-mrp_tag>=16.0dev,<16.1dev',
         'odoo-addon-mrp_unbuild_move_link>=16.0dev,<16.1dev',
         'odoo-addon-mrp_unbuild_restore_origin>=16.0dev,<16.1dev',
