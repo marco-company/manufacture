@@ -47,6 +47,7 @@ setuptools.setup(
         'odoo-addon-mrp_production_unique_lot>=16.0dev,<16.1dev',
         'odoo-addon-mrp_restrict_lot>=16.0dev,<16.1dev',
         'odoo-addon-mrp_sale_info>=16.0dev,<16.1dev',
+        'odoo-addon-mrp_stock_move_actual_date>=16.0dev,<16.1dev',
         'odoo-addon-mrp_stock_owner_restriction>=16.0dev,<16.1dev',
         'odoo-addon-mrp_subcontracting_bom_dual_use>=16.0dev,<16.1dev',
         'odoo-addon-mrp_subcontracting_inhibit>=16.0dev,<16.1dev',
