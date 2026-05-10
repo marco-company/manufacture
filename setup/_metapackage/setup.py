@@ -27,6 +27,7 @@ setuptools.setup(
         'odoo-addon-mrp_bom_tag>=16.0dev,<16.1dev',
         'odoo-addon-mrp_bom_tracking>=16.0dev,<16.1dev',
         'odoo-addon-mrp_bom_version>=16.0dev,<16.1dev',
+        'odoo-addon-mrp_bom_weight>=16.0dev,<16.1dev',
         'odoo-addon-mrp_bom_widget_section_and_note_one2many>=16.0dev,<16.1dev',
         'odoo-addon-mrp_default_workorder_time>=16.0dev,<16.1dev',
         'odoo-addon-mrp_lot_number_propagation>=16.0dev,<16.1dev',
