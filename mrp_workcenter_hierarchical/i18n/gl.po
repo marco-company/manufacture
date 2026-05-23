@@ -6,13 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2026-05-23 15:56+0000\n"
+"Last-Translator: Pablo Castelo <pablocv@gmx.es>\n"
 "Language-Team: none\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: mrp_workcenter_hierarchical
 #: model_terms:ir.ui.view,arch_db:mrp_workcenter_hierarchical.view_wiz_switch_workcenter_form
@@ -27,7 +29,7 @@ msgstr ""
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__child_ids
 msgid "Children"
-msgstr ""
+msgstr "Nenos"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model,name:mrp_workcenter_hierarchical.model_res_company
@@ -52,17 +54,17 @@ msgstr ""
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_switch_workcenter__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Mostrar Nome"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_switch_workcenter__id
 msgid "ID"
-msgstr ""
+msgstr "ID (identificación)"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_switch_workcenter____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Última Modificación o"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_switch_workcenter__write_uid
@@ -77,30 +79,30 @@ msgstr ""
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__parent_id
 msgid "Parent"
-msgstr ""
+msgstr "Parental"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__parent_level_1_id
 #: model_terms:ir.ui.view,arch_db:mrp_workcenter_hierarchical.view_mrp_workcenter_search
 msgid "Parent Level 1"
-msgstr ""
+msgstr "Pais Nivel 1"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__parent_level_2_id
 #: model_terms:ir.ui.view,arch_db:mrp_workcenter_hierarchical.view_mrp_workcenter_search
 msgid "Parent Level 2"
-msgstr ""
+msgstr "Pais Nivel 2"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__parent_level_3_id
 #: model_terms:ir.ui.view,arch_db:mrp_workcenter_hierarchical.view_mrp_workcenter_search
 msgid "Parent Level 3"
-msgstr ""
+msgstr "Pais Nivel 3"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__parent_path
 msgid "Parent Path"
-msgstr ""
+msgstr "Roteiro Parental"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_switch_workcenter__parent_workcenter_id
@@ -142,7 +144,7 @@ msgstr ""
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model,name:mrp_workcenter_hierarchical.model_mrp_workcenter
 msgid "Work Center"
-msgstr ""
+msgstr "Centro de traballo"
 
 #. module: mrp_workcenter_hierarchical
 #: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_switch_workcenter__workcenter_id
